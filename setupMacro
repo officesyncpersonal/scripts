@@ -1,0 +1,18 @@
+l=dir
+c=cls
+x=exit
+gs=git status
+gc=git clone $*
+gu=git push
+gp=git pull --rebase
+ns=ng serve
+ni=npm install $*
+r=cd /d D:\Dhiraj\Projects
+ex=explorer %cd%
+np="C:\Program Files (x86)\Notepad++\notepad++.exe" $*
+t=cd /d C:\temp
+p1=cd /d D:\Dhiraj\Projects\ProposalGenerator\Git
+
+gf=git fetch origin
+glr=git branch -r
+gll=git branch -a
