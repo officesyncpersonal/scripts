@@ -1,18 +1,36 @@
+::Windows helpers
 l=dir
 c=cls
 x=exit
+ex=explorer %cd%
+np="%PROGRAMFILES%\Notepad++\notepad++.exe" $*
+st=start &*
+t=cd /D "%SystemDrive%\Temp\"
+re=refreshenv
+
+
+
+::Git helpers
 gs=git status
 gc=git clone $*
 gu=git push
-gp=git pull --rebase
+gp=git pull
+gf=git fetch origin
+gl=git branch -r & git branch -a
+
+
+
+::NG helpers
 ns=ng serve
 ni=npm install $*
+
+
+
 r=cd /d D:\Dhiraj\Projects
-ex=explorer %cd%
-np="C:\Program Files (x86)\Notepad++\notepad++.exe" $*
-t=cd /d C:\temp
 p1=cd /d D:\Dhiraj\Projects\ProposalGenerator\Git
 
-gf=git fetch origin
-glr=git branch -r
-gll=git branch -a
+
+
+::Refrences->
+::%PROGRAMFILES%	C:\Program Files
+::%PROGRAMFILES(X86)%	C:\Program Files (x86) (only in 64-bit version)
