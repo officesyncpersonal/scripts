@@ -1,2 +1,2 @@
 @echo off
-doskey /macrofile=D:\Dhiraj\Scripts\setupMacro
+doskey /macrofile=%~dp0\setupMacro
