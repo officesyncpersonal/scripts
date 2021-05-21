@@ -21,3 +21,5 @@ gl=git branch -r & git branch -a
 
 ns=ng serve
 ni=npm install $*
+nv=node --version & npm --version
+nsetup=npm install -g @angular/cli
