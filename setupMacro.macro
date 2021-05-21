@@ -11,6 +11,7 @@ re=refreshenv
 g=git $*
 gs=git status
 gc=git clone $*
+gk=git checkout $*
 gu=git push
 gp=git pull
 gf=git fetch origin
