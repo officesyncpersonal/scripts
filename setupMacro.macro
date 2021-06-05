@@ -1,3 +1,4 @@
+st=start %1
 
 l=dir
 c=cls
