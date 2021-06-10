@@ -24,3 +24,5 @@ ns=ng serve
 ni=npm install $*
 nv=node --version & npm --version
 nsetup=npm install -g @angular/cli
+
+pullall=git -C C:\Temp\kafkaconfig\ pull & git -C C:\Temp\linuxconfig\ pull && git -C C:\Temp\scripts\ pull && git -C C:\Temp\scripts\ pull && git -C C:\Temp\settings\ pull
